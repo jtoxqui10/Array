@@ -77,7 +77,7 @@ T * Array<T>::end() {
 template <class T>
 void Array<T>::fill(T k){
     	for(int i = 0; i < len; i++){
-    	data [i] = k;
+    		data [i] = k;
     	}
 }
 
